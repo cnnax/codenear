@@ -1,7 +1,15 @@
-# CodeNear 
+#CodeNear.com
 
-Better mobile app for project outsourcing . Employers can post his/her project requirement on this app , and our developers / graphic designers can work on it .
+What is codenear.com
+--------------------
+CodeNear is an social organization ,  targeting on IT oursourcing 
 
-Tools used 
-1. Ionic Framework
+Who can join our team
+---------------------
+Everyone can join our team , codenear is a people owned organization to make awesome software for mobile and web
 
+Project Target
+--------------
+  1) Make a outstanding website for codenear.com
+  2) Make a awesome userfirendly modile application for codenear.com
+  
