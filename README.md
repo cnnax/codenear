@@ -6,7 +6,7 @@ CodeNear is an social organization ,  targeting on IT oursourcing
 
 Who can join our team
 ---------------------
-Everyone can join our team , codenear is a people owned organization to make awesome software for mobile and web
+Everyone can join our team , codenear is a people owned organization to make awesome software for mobile and web.
 
 Developers Target
 -----------------
