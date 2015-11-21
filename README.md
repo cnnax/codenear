@@ -14,7 +14,7 @@ Developers Target
 
   1) Make a outstanding website for codenear.com
       Projects Starts on 20th Nov 2015
-      Estimated Completion date : 20th Feb 2015
+      Estimated Completion date : 20th Feb 2016
   
   #Stage 2
   
