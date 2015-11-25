@@ -1,0 +1,98 @@
+<ion-view ng-controller="account">
+  <ion-nav-buttons side="left">
+   <a class="button button-icon icon ion-android-arrow-back" ng-click="goBack()" href="#/"></a>
+  </ion-nav-buttons>
+  <ion-nav-title>
+    {{title}}
+  </ion-nav-title>
+
+
+  <ion-tabs class="tabs-assertive  tabs-striped" style="border:0px;">
+
+    <ion-tab title="LOGIN" ng-controller="loginFormController" >
+      <ion-content>
+        <div style="width:100%;padding-top:130px;padding-bottom:40px;text-align:center;font-weight:bold;color:gray;font-size:16px;">LOGIN TO CODENEAR</div>
+
+        <div class="row " >
+            <div class="col ">
+              <label class="item item-input">
+                <input type="text" placeholder="Email Address">
+              </label>
+            </div>
+        </div>
+
+        <div class="row " >
+            <div class="col ">
+              <label class="item item-input">
+                <input type="password" placeholder="Password">
+              </label>
+
+            </div>
+        </div>
+        <div class="row " >
+          <div class="col col-100" style="text-align:right">
+            <a class="button button-clear button-positive align-center">Forgot Password ?</a>
+          </div>
+        </div>
+        <div class="row " >
+            <div class="col ">
+              <button class="button button-calm" style="width:100%"> Create My Account</button>
+            </div>
+        </div>
+
+
+      </ion-content>
+
+
+
+    </ion-tab>
+
+    <ion-tab title="REGISTER" ng-controller="registerFormController"  >
+      <ion-content>
+        <div style="width:100%;padding-top:130px;padding-bottom:40px;text-align:center;font-weight:bold;color:gray;font-size:16px;">CREATE A NEW ACCOUNT</div>
+        <div class="row " style="">
+            <div class="col ">
+              <label class="item item-input">
+                <input type="text" placeholder="First Name">
+              </label>
+            </div>
+            <div class="col ">
+              <label class="item item-input">
+                <input type="text" placeholder="Last Name">
+              </label>
+            </div>
+        </div>
+        <div class="row " >
+            <div class="col ">
+              <label class="item item-input">
+                <input type="text" placeholder="Email Address">
+              </label>
+            </div>
+        </div>
+        <div class="row " >
+            <div class="col ">
+              <label class="item item-input">
+                <input type="text" placeholder="Mobile Number">
+              </label>
+
+            </div>
+        </div>
+        <div class="row " style='display:none' >
+          <div class="col col-100" style="text-align:left;">
+            <a class="button button-clear button-positive" style="font-size:14px;line-height:15px;text-align:left">By clicking Sign Up, you agree to our Terms and Conditions and that you have read our privacy policy</a>
+          </div>
+        </div>
+        <div class="row " >
+            <div class="col ">
+              <button class="button button-calm" style="width:100%"> Create My Account</button>
+            </div>
+        </div>
+
+      </ion-content>
+
+
+    </ion-tab>
+
+  </ion-tabs>
+
+</ion-view>
